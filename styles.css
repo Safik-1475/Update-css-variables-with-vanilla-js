@@ -1,0 +1,29 @@
+:root{
+    --base-color:#6A1B4D;
+    --blur : 10px;
+    --spacing : 10px;
+}
+.hl{
+    color:var(--base-color);
+    text-transform: uppercase;
+}
+img{
+    padding: var(--spacing);
+    background-color: var(--base-color);
+    filter: blur(var(--blur));
+}
+body{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:#ffffff;
+    font-size: 50px;
+    font-weight: 200;
+    background-color:#02B290;
+    text-transform: capitalize;
+}
+.controls {
+    margin-bottom:100px;
+}
+input{
+    width:100px;
+}
